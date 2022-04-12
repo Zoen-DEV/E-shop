@@ -1,0 +1,18 @@
+:root{
+    --clr-green1: #195829;
+    --clr-green2: #69a879;
+    --clr-yellow1: #cfc406;
+    --clr-yellow2: #efe426;
+    --clr-red1: #e61f22;
+    --clr-red2: #c60003;
+    --clr-black1: #090909;
+    --clr-black2: #232323;
+
+    --text-shadow1: 2px 2px 1px var(--clr-black2);
+    --text-shadow2: 2px 2px 2px var(--clr-black2);
+    --text-shadow3: 0px 0px 5px var(--clr-black2);
+}
+*{
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}

@@ -1,0 +1,52 @@
+.head{
+    border-bottom: 2px solid var(--clr-green1);
+    width: 96%;
+    margin: auto;
+}
+.nav{
+    padding: 10px;
+    display: flex;
+}
+.toggle-btn{
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    color: var(--clr-green1);
+    filter: drop-shadow(var(--text-shadow2));
+}
+.cart-btn{
+    border: none;
+    background: transparent;
+    font-size: 25px;
+    color: var(--clr-yellow2);
+    filter: drop-shadow(var(--text-shadow1));
+
+}
+.nav-logo{
+    width: 60px;
+    filter: drop-shadow(var(--text-shadow3));
+}
+.links{
+    display: none;
+}
+.toggle-links{
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+}
+.toggle-link{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 22px;
+}
+.toggle-cart-btn{
+    border: none;
+    background: transparent;
+    width: 50px;
+    font-size: 30px;
+    color: var(--clr-green1);
+    filter: drop-shadow(var(--text-shadow1));
+}
