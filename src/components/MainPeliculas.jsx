@@ -1,7 +1,6 @@
 import React from "react";
 import Movies from "./Movies";
-import "../styles/Movies.css";
-import "../styles/MainHome.css";
+import "../styles/MainPeliculas.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
