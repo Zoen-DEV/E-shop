@@ -1,0 +1,21 @@
+.movies{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 20px;
+}
+.movie-container{
+    border: 2px solid var(--clr-white);
+    border-radius: 3px;
+    width: 150px;
+    box-shadow: 2px 2px 5px 2px var(--clr-black3);
+    background-color: var(--clr-green3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.movie-img{
+    width: 150px;
+}

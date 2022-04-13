@@ -21,10 +21,6 @@ const Nav = () => {
           <button onClick={() => toggleLinks()} className="toggle-btn">
             <FontAwesomeIcon icon={faBars} />
           </button>
-          <div className="input-container">
-            <input type="text" className="nav-search" />
-            <FontAwesomeIcon icon={faSearch}  className="lupa"/>
-          </div>
           <img src={logo} alt="logo" className="nav-logo" />
           <ul className="links">
             <li>
@@ -48,8 +44,8 @@ const Nav = () => {
             </Link>
           </li>
           <li>
-            <Link className="toggle-link" to="/">
-              Productos
+            <Link className="toggle-link" to="/movies">
+              Peliculas
             </Link>
           </li>
           <li>
@@ -62,9 +58,10 @@ const Nav = () => {
               Sobre nosotros
             </Link>
           </li>
-          <button className="cart-btn">
-            <FontAwesomeIcon icon={faShoppingCart} />
-          </button>
+          <div className="input-container">
+            <input type="text" className="nav-search" />
+            <FontAwesomeIcon icon={faSearch}  className="lupa"/>
+          </div>
         </ul>
       </header>
     </>

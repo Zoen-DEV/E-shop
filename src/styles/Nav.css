@@ -13,8 +13,8 @@
     border: none;
     background: transparent;
     font-size: 30px;
-    color: var(--clr-green1);
-    filter: drop-shadow(var(--text-shadow2));
+    color: var(--clr-white);
+    cursor: pointer;
 }
 .input-container{
     display: flex;
@@ -31,7 +31,7 @@
     outline-color: var(--clr-green2);
 }
 .lupa{
-    color: var(--clr-green1);
+    color: var(--clr-white);
 }
 .cart-btn{
     border: none;
@@ -42,7 +42,7 @@
     width: 20px;
 }
 .nav-logo{
-    width: 60px;
+    width: 200px;
     filter: drop-shadow(var(--text-shadow3));
 }
 .links{
@@ -63,7 +63,7 @@
     text-decoration: none;
     font-weight: 900;
     font-size: 22px;
-    color: var(--clr-green3);
+    color: var(--clr-white);
     text-shadow: var(--text-shadow1) var(--clr-black3);
 }
 .toggle-cart-btn{

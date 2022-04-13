@@ -1,4 +1,5 @@
 :root{
+    --clr-blue1: #00adf1;
     --clr-green1: #195829;
     --clr-green2: #69a879;
     --clr-green3: #b5cfbc;
@@ -9,12 +10,17 @@
     --clr-black1: #090909;
     --clr-black2: #232323;
     --clr-black3: #232323a6;
+    --clr-white: #f0f0f0;
 
-    --text-shadow1: 2px 2px 1px;
+    --text-shadow1: 1px 1px 1px;
     --text-shadow2: 2px 2px 2px;
     --text-shadow3: 0px 0px 5px;
 }
 *{
     margin: 0;
+    padding: 0;
     font-family: sans-serif;
+}
+html{
+    background-color: var(--clr-blue1);
 }
